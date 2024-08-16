@@ -4,6 +4,7 @@ metadata:
   labels:
     app: hello-minikube
   name: hello-minikube
+  namespace: sample-argo
 spec:
   ports:
   - port: 8080
